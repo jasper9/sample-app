@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://util-01a.corp.local:9292'
 
 gem 'rails',                '4.2.0.rc2'
 gem 'sass-rails',           '5.0.0.beta1'
