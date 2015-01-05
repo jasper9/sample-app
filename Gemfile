@@ -1,6 +1,6 @@
 source 'http://util-01a.corp.local:9292'
 
-ruby '2.1.0'
+ruby '2.1.5'
 
 gem 'rails',                '4.2.0.rc2'
 gem 'sass-rails',           '5.0.0.beta1'
