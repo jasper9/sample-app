@@ -1,4 +1,4 @@
-source 'http://util-01a.corp.local:9292'
+source 'http://ruby-gems.corp.local:9292'
 
 ruby '2.1.5'
 
@@ -30,4 +30,3 @@ group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end
-
