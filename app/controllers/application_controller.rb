@@ -6,7 +6,8 @@ class ApplicationController < ActionController::Base
   def hello
     require 'socket'
     ip = `/sbin/ifconfig eth0 | grep 'net addr' | awk '{print $2}' | sed -e s/.*://`.strip
- 	title: "This is my title" 
+
+    assert_select "title", "Home | Ruby on Rails Tutorial Sample App"
     render text: "HelloWorld      \n IP is "+ip+" \n\n\n #BUILD_INFO#"
   
   end

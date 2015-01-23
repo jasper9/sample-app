@@ -4,12 +4,12 @@ class JAASTest extends PHPUnit_Extensions_Selenium2TestCase
     protected function setUp()
     {
         $this->setBrowser('firefox');
-        $this->setBrowserUrl('<TESTURL>');
+        $this->setBrowserUrl('http://www.google.com');
     }
 
     public function testTitle()
     {
-        $this->url('<TESTURL>');
+        $this->url('http://<TESTURL>');
 	// <TESTSTRING>
 
     }
