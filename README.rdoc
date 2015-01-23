@@ -1,2 +1,6 @@
-this needs to be updated
+This is simply the demo app from the tutorial online at www.railstutorial.org
+
+I stopped at section "5.2 Sass and the asset pipeline"
+
+
 
