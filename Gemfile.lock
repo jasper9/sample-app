@@ -1,5 +1,5 @@
 GEM
-  remote: http://util-01a.corp.local:9292/
+  remote: http://ruby-gems.corp.local:9292/
   specs:
     actionmailer (4.2.0.rc2)
       actionpack (= 4.2.0.rc2)
